@@ -23,7 +23,7 @@ for (let j = 0; j < operations.length; j++) {
 
     operations[j].addEventListener('click', () => {
 
-        firstValue = parseInt(input.value)
+        firstValue = parseFloat(input.value)
         operator = operations[j].innerHTML
         input.value = ""
 
@@ -32,7 +32,7 @@ for (let j = 0; j < operations.length; j++) {
 }
 
 equals.addEventListener('click', () => {
-    secondValue = parseInt(input.value)
+    secondValue = parseFloat(input.value)
     input.value = operate(firstValue, operator, secondValue)
 })
 
