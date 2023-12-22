@@ -7,38 +7,60 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.cdnfonts.com/css/calculator" rel="stylesheet">
     </head>
     <body>
 
-        <div id="input_wrapper">
-            <input type="text" name="input" id="input">
-        </div>
+        <h1>The Odin Project Calculator</h1>
+        <p>By <a href="https://github.com/cesaradrianer">César A. Estrada Reséndiz</a></p>
 
-        <div id="numbers">
-            <button class="number" value="1">1</button>
-            <button class="number" value="2">2</button>
-            <button class="number" value="3">3</button>
-            <button class="number" value="4">4</button>
-            <button class="number" value="5">5</button>
-            <button class="number" value="6">6</button>
-            <button class="number" value="7">7</button>
-            <button class="number" value="8">8</button>
-            <button class="number" value="9">9</button>
-            <button class="number" value="0">0</button>
-            <button class="number" value=".">.</button>
-        </div>
+        <section id="calculator">
 
-        <div id="operations">
-            <button class="operation">+</button>
-            <button class="operation">-</button>
-            <button class="operation">*</button>
-            <button class="operation">/</button>
-        </div>
+            <div id="input_wrapper">
+                <input type="text" name="input" id="input">
+            </div>
+    
+            <div id="buttons-wrapper">
 
-        <div id="actions">
-            <button id="equals">=</button>
-            <button id="clear">CE</button>
-        </div>
+                <div id="actions">
+
+                    <button id="clear">CE</button>
+                    <button id="delete">DEL</button>
+                    <div id="calc_logo_div">
+                        <h3>Calculator</h3>
+                    </div>
+
+                </div>
+
+                <div id="buttons">
+
+                    <div id="numbers">
+                        <button class="number" value="1">1</button>
+                        <button class="number" value="2">2</button>
+                        <button class="number" value="3">3</button>
+                        <button class="number" value="4">4</button>
+                        <button class="number" value="5">5</button>
+                        <button class="number" value="6">6</button>
+                        <button class="number" value="7">7</button>
+                        <button class="number" value="8">8</button>
+                        <button class="number" value="9">9</button>
+                        <button class="number" value=".">.</button>
+                        <button class="number" value="0">0</button>
+                        <button id="equals">=</button>
+                    </div>
+            
+                    <div id="operations">
+                        <button class="operation">+</button>
+                        <button class="operation">-</button>
+                        <button class="operation">*</button>
+                        <button class="operation">/</button>
+                    </div>
+    
+                </div>
+
+            </div>
+
+        </section>
 
         <script src="index.js" async defer></script>
     </body>

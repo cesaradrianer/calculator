@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Work+Sans:wght@300;400;500;700;900&display=swap');
+
+body {
+    background-color: bisque;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Work Sans';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+p {
+    margin-bottom: 80px;
+}
+
+h3 {
+    font-family: 'Goldman';
+    color: rgb(97, 97, 97);
+    text-shadow: 1px 1px 0 rgb(46, 46, 46);
+}
+
+#calculator {
+    width: 220px;
+    background-color: rgb(80, 80, 80);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0 rgb(0, 0, 0);
+}
+
+button {
+    box-shadow: 2px 3px 0 rgb(32, 32, 32);
+    margin-bottom: 3px;
+}
+
+button:active {
+    transform: translateY(+2px);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#buttons-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.number {
+    background-color: rgb(80, 80, 80);
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 1.3em;
+    font-weight: 900;
+    padding: 0;
+    color: rgb(209, 209, 209);
+    border: 1px solid rgb(70, 70, 70);
+}
+
+.operation {
+    background-color: rgb(190, 76, 0);
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 1.3em;
+    font-weight: 900;
+    color: white;
+    padding: 0;
+    border: 1px solid rgb(170, 77, 0);
+}
+
+#equals {
+    background-color: rgb(80, 80, 80);
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 1.3em;
+    font-weight: 900;
+    padding: 0;
+    color: rgb(209, 209, 209);
+    border: 1px solid rgb(70, 70, 70);
+}
+
+#actions {
+    display: flex;
+    flex-direction: row;
+}
+
+#actions > button {
+    background-color: rgb(0, 0, 175);
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: 900;
+    padding: 0;
+    color: rgb(209, 209, 209);
+    border: 1px solid rgb(0, 2, 136);
+}
+
+#calc_logo_div {
+    width: 120px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    border-radius: 10px;
+    background-color: black;
+    height: 50px;
+    margin-bottom: 10px;
+    color: rgb(29, 190, 64);
+    padding-left: 8px;
+    font-size: 1.75em;
+    text-shadow: 0 0 5px rgb(202, 255, 215);
+    font-family: 'Calculator';
+}
